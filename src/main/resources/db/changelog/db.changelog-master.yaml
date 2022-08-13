@@ -1,0 +1,3 @@
+databaseChangeLog:
+  - include: # список активных миграций
+      file: db/changelog/create-author-table.yaml
