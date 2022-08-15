@@ -19,6 +19,9 @@ application:
 
 
 server:
+  error:
+    include-message: always
+    include-stacktrace: never
   port: 8080
 
 spring:
